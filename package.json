@@ -1,0 +1,27 @@
+{
+  "name": "TruckApp-API",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node $NODE_DEBUG_OPTION ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "global": "^4.3.2",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serverless": "^1.28.0",
+    "serverless-azure-functions": "^0.6.0",
+    "serverless-http": "^1.6.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "serverless-domain-manager": "^2.6.0",
+    "serverless-offline": "^3.25.6"
+  }
+}
